@@ -1,0 +1,10 @@
+[Skybox only]
+texture=wall1
+
+[LinkedWall cam]
+x1=-1.51
+y1=0
+x2=1.51
+y2=0
+linkMap=default
+linkWall=cell_skybox

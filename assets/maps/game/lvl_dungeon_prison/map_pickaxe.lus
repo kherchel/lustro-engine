@@ -1,0 +1,20 @@
+[onUse]
+mode=once
+
+[DisplayMessageEvent w0_b]
+message=Picked up old pickaxe. Use I to open up your inventory and O/P to cycle through items.
+group=onUse
+step=0
+
+[AddItemEvent w0]
+name=Pickaxe
+description=Old pickaxe. May be used to destroy something.
+group=onUse
+step=0
+
+[ChangeObjectStateEvent w0_a]
+object=pickaxe
+map=default
+state=false
+group=onUse
+step=0

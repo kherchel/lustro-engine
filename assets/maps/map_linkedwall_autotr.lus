@@ -1,0 +1,68 @@
+[auto]
+mode=once
+
+[WaitEvent f]
+time=5
+timerName=f
+step=0
+group=auto
+
+[DisplayMessageEvent n]
+message=Witaj przywolywaczu!
+step=1
+group=auto
+
+[WaitEvent f2]
+timerName=f2
+time=8
+step=2
+group=auto
+
+[DisplayMessageEvent n1]
+message=Jestem Julian i bede twoim przewodnikiem.
+step=3
+group=auto
+
+[WaitEvent f3]
+timerName=f3
+time=8
+step=4
+group=auto
+
+[DisplayMessageEvent n2]
+message=Nacisnij alt+f4 aby wyjsc.
+step=5
+group=auto
+
+[WaitEvent f4]
+timerName=f4
+time=8
+step=6
+group=auto
+
+[DisplayMessageEvent n3]
+message=Nacisnij przycisk power by dostac 100 golda.
+step=7
+group=auto
+
+[WaitEvent f5]
+timerName=f5
+time=8
+step=8
+group=auto
+
+[DisplayMessageEvent n4]
+message=Zatancz by tanczyc.
+step=9
+group=auto
+
+[WaitEvent f6]
+timerName=f6
+time=10
+step=10
+group=auto
+
+[DisplayMessageEvent n5]
+message=Samouczek zakonczony. Powodzenia!
+step=11
+group=auto

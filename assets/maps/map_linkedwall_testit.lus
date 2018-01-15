@@ -1,0 +1,81 @@
+[onUse]
+mode=multiple
+
+[ChangeAnimationEvent first]
+object=test
+map=default
+animation=anim2
+group=onUse
+step=0
+
+[ChangeAnimationEvent second]
+object=test
+map=default
+animation=anim1
+group=onUse
+step=1
+
+[ChangeTextureEvent first]
+wall=6
+map=default
+texture=wall1
+group=onUse
+step=2
+
+[ChangeTextureEvent second]
+wall=6
+map=default
+texture=wall2
+group=onUse
+step=3
+
+[ChangeSkyboxEvent first]
+map=default
+texture=wall1
+group=onUse
+step=4
+
+[DisplayMessageEvent first]
+message=uuu co to za skybox popatrzmy poczekaj
+group=onUse
+step=4
+
+[WaitEvent first]
+time=8
+timerName=timer_ev
+group=onUse
+step=5
+
+[ChangeSkyboxEvent second]
+map=default
+texture=skybox
+group=onUse
+step=6
+
+[ChangeObjectStateEvent first]
+map=default
+object=test
+state=false
+group=onUse
+step=6
+
+[ChangeObjectStateEvent second]
+map=default
+object=test
+state=true
+group=onUse
+step=7
+
+[ChangeWallStateEvent first]
+map=default
+wall=1
+state=false
+group=onUse
+step=8
+
+[ChangeWallStateEvent second]
+map=default
+wall=1
+state=true
+group=onUse
+step=9

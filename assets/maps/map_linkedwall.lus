@@ -1,0 +1,133 @@
+[Sky block]
+symbol=▒
+textColor=4
+backgroundColor=6
+
+[Ground block]
+symbol=░
+textColor=0
+backgroundColor=2
+
+[Skybox only]
+texture=skybox
+
+[Object test]
+x=-4
+y=-2
+animation=anim1
+
+[Autotrigger autotr]
+active=true
+
+[Item testit]
+x=-4
+y=-0
+animation=anim2
+
+[Trigger testtr]
+x1=-5
+y1=-3
+x2=-3
+y2=-1
+
+[Wall 1a]
+x1=2
+y1=-4
+x2=2
+y2=2
+texture=wall1
+
+[Wall 1b]
+x1=2
+y1=3
+x2=2
+y2=5
+texture=wall1
+
+[LinkedaWall a1]
+x1=2
+y1=2
+x2=2
+y2=3
+linkMap=default
+linkWall=a2
+
+[Wall 2]
+x1=2
+y1=5
+x2=7
+y2=5
+texture=wall1
+
+[Wall 3]
+x1=7
+y1=9
+x2=0
+y2=9
+texture=wall1
+
+[Wall 4]
+x1=5
+y1=7
+x2=-8
+y2=7
+texture=wall1
+
+[Wall 5a]
+x1=-2
+y1=8
+x2=-2
+y2=3
+texture=wall1
+
+[Wall 5b]
+x1=-2
+y1=2
+x2=-2
+y2=-2
+texture=wall1
+
+[LinkedWall a2]
+x1=-2
+y1=2
+x2=-2
+y2=3
+linkMap=default
+linkWall=a1
+
+[Wall 6]
+x1=-4
+y1=-2
+x2=-6
+y2=-2
+texture=wall2
+
+[Wall 7]
+x1=-6
+y1=-6
+x2=0
+y2=-6
+texture=wall1
+
+[Wall 8]
+x1=0
+y1=-6
+x2=2
+y2=-4
+texture=wall1
+
+[LinkedWall 1]
+x1=-6
+y1=-2
+x2=-6
+y2=-6
+linkMap=default
+linkWall=2
+
+[LinkedWall 2]
+x1=7
+y1=9
+x2=7
+y2=5
+linkMap=default
+linkWall=1

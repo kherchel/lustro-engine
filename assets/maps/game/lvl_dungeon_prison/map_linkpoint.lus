@@ -1,0 +1,49 @@
+[onEntry]
+mode=once
+[onLeave]
+mode=once
+
+[ChangeWallStateEvent w0_a]
+wall=cell_door
+map=default
+state=true
+step=0
+group=onEntry
+
+[SetVariableEvent w0]
+name=link
+value=1
+step=0
+group=onEntry
+
+[WaitForVariableEvent w1]
+name=mid
+value=1
+step=1
+group=onEntry
+
+[SetVariableEvent w2]
+name=link
+value=2
+step=1
+group=onEntry
+
+[WaitForVariableEvent w3]
+name=mid
+value=2
+step=2
+group=onEntry
+
+[ChangeWallStateEvent w3_a]
+wall=4cell_door
+map=default
+state=false
+step=2
+group=onEntry
+
+[ChangeItemStateEvent w3_b]
+object=pickaxe
+map=default
+state=true
+step=2
+group=onEntry

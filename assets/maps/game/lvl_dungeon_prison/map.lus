@@ -1,0 +1,220 @@
+[NoSkybox sky]
+texture=skybox
+
+[Autotrigger start]
+[Trigger midpoint]
+x1=-2
+y1=-1.5
+x2=2
+y2=-3.5
+
+[Trigger linkpoint]
+x1=8
+y1=-3.5
+x2=10
+y2=-5
+
+[Item pickaxe]
+animation=pickaxe
+x=3.5
+y=-4.5
+
+[Wall cell_l]
+x1=-1.5
+y1=-1.5
+x2=-1.5
+y2=1.5
+texture=cellWall
+
+[Wall cell_r]
+x1=1.5
+y1=1.5
+x2=1.5
+y2=-1.5
+texture=cellWall
+
+[Wall cell_u1]
+x1=-1.5
+y1=1.5
+x2=-1
+y2=1.5
+texture=cellWall
+
+[Wall cell_u2]
+x1=-1
+y1=1.5
+x2=-0.5
+y2=1.5
+texture=cellWindow
+looping=false
+
+[Wall cell_u3]
+x1=-0.5
+y1=1.5
+x2=0.5
+y2=1.5
+texture=cellWall
+
+[Wall cell_u4]
+x1=0.5
+y1=1.5
+x2=1
+y2=1.5
+texture=cellWindow
+looping=false
+
+[Wall cell_u5]
+x1=1
+y1=1.5
+x2=1.5
+y2=1.5
+texture=cellWall
+
+[Wall cell_d1]
+x1=1.5
+y1=-1.5
+x2=1
+y2=-1.5
+texture=cellBars
+
+[Wall cell_door]
+x1=1
+y1=-1.5
+x2=0.5
+y2=-1.5
+texture=cellDoor
+looping=false
+
+[LinkedWall cell_skybox]
+x1=-1.51
+y1=1.501
+x2=1.51
+y2=1.501
+linkMap=skybox_evening
+linkWall=cam
+
+[Wall cell_d2]
+x1=0.5
+y1=-1.5
+x2=-1.5
+y2=-1.5
+texture=cellBars
+
+[CopyWalls 1]
+prefix=1
+x1=-1.51
+y1=-1.51
+x2=1.51
+y2=1.51
+translateX=-3.5
+translateY=0
+
+[CopyWalls 3]
+prefix=3
+x1=-1.51
+y1=-1.51
+x2=1.51
+y2=1.51
+translateX=3.5
+translateY=0
+
+[CopyWalls 4]
+prefix=4
+x1=-1.51
+y1=-1.51
+x2=1.51
+y2=1.51
+translateX=3.5
+translateY=0
+originY=-2.5
+
+[CopyWalls 5]
+prefix=5
+x1=-1.51
+y1=-1.51
+x2=1.51
+y2=1.51
+translateX=0
+translateY=0
+originY=-2.5
+
+[CopyWalls 6]
+prefix=6
+x1=-1.51
+y1=-1.51
+x2=1.51
+y2=1.51
+translateX=-3.5
+translateY=0
+originY=-2.5
+
+[Wall cell12]
+x1=-2
+y1=-1.5
+x2=-1.5
+y2=-1.5
+texture=cellWall
+
+[Wall cell23]
+x1=1.5
+y1=-1.5
+x2=2
+y2=-1.5
+texture=cellWall
+
+[Wall cell45]
+x1=1.5
+y1=-3.5
+x2=2
+y2=-3.5
+texture=cellWall
+
+[Wall cell56]
+x1=-1.5
+y1=-3.5
+x2=-2
+y2=-3.5
+texture=cellWall
+
+[Wall corridoru1]
+x1=5
+y1=-1.5
+x2=10
+y2=-1.5
+texture=cellWall
+
+[Wall corridoru2]
+x1=10
+y1=-1.5
+x2=10
+y2=-5
+texture=cellWall
+
+[Wall corridord1]
+x1=5
+y1=-3.5
+x2=8
+y2=-3.5
+texture=cellWall
+
+[Wall corridord2]
+x1=8
+y1=-3.5
+x2=8
+y2=-5
+texture=cellWall
+
+[LinkedWall corridorlink]
+x1=8
+y1=-5
+x2=10
+y2=-5
+
+[CopyWalls corr]
+x1=5
+y1=-1.5
+x2=10
+y2=-5
+prefix=l
+originX=0
+originY=-2.5

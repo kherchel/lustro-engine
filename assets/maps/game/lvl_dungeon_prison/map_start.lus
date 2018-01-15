@@ -1,0 +1,59 @@
+[auto]
+mode=once
+
+[LinkWallEvent w0]
+map1=default
+map2=default
+wall1=corridorlink
+wall2=lcorridorlink
+doublyLinked=true
+group=auto
+step=0
+
+[ChangeWallStateEvent w0_b]
+map=default
+wall=4cell_door
+state=true
+group=auto
+step=0
+
+[WaitEvent w1]
+time=6
+timerName=w1
+group=auto
+step=1
+
+[DisplayMessageEvent w2]
+message=Huh...? What is this place?
+group=auto
+step=2
+
+[WaitEvent w3]
+time=8
+timerName=w2
+group=auto
+step=3
+
+[ChangeWallStateEvent w4]
+wall=cell_door
+map=default
+state=false
+group=auto
+step=4
+
+[WaitForVariableEvent w5]
+name=mid
+value=2
+group=auto
+step=5
+
+[WaitForVariableEvent w6]
+name=link
+value=2
+group=auto
+step=5
+
+[DisplayMessageEvent w3]
+message=Hmm...
+group=auto
+step=6

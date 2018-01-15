@@ -1,0 +1,6 @@
+[default]
+file=assets/maps/game/lvl_dungeon_prison/map.lus
+[skybox_evening]
+file=assets/maps/game/skybox_evening/map.lus
+[lvl_dungeon_cave]
+file=assets/maps/game/lvl_dungeon_cave/map.lus

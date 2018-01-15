@@ -1,0 +1,26 @@
+[onEntry]
+mode=once
+
+[IsVariableEvent w0]
+name=link
+value=1
+step=0
+group=onEntry
+
+[SetVariableEvent w1]
+name=mid
+value=1
+step=0
+group=onEntry
+
+[WaitForVariableEvent w2]
+name=link
+value=2
+step=1
+group=onEntry
+
+[SetVariableEvent w1]
+name=mid
+value=2
+step=1
+group=onEntry

@@ -1,0 +1,73 @@
+[onLeave]
+mode=multiple
+
+[onEntry]
+mode=multiple
+
+[ChangeAnimationEvent first]
+object=test
+map=default
+animation=anim2
+group=onEntry
+step=0
+
+[ChangeAnimationEvent second]
+object=test
+map=default
+animation=anim1
+group=onLeave
+step=0
+
+[ChangeTextureEvent first]
+wall=6
+map=default
+texture=wall1
+group=onEntry
+step=1
+
+[ChangeTextureEvent second]
+wall=6
+map=default
+texture=wall2
+group=onLeave
+step=1
+
+[ChangeSkyboxEvent first]
+map=default
+texture=wall1
+group=onEntry
+step=2
+
+[ChangeSkyboxEvent second]
+map=default
+texture=skybox
+group=onLeave
+step=2
+
+[ChangeObjectStateEvent first]
+map=default
+object=test
+state=false
+group=onEntry
+step=3
+
+[ChangeObjectStateEvent second]
+map=default
+object=test
+state=true
+group=onLeave
+step=3
+
+[ChangeWallStateEvent first]
+map=default
+wall=1
+state=false
+group=onEntry
+step=4
+
+[ChangeWallStateEvent second]
+map=default
+wall=1
+state=true
+group=onLeave
+step=4
